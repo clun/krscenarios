@@ -1,4 +1,4 @@
-# krscenarios
+# Katacoda scenarios in KillrCoda
 
 This repository is a tentative to move our Katacoda scenarios
 
