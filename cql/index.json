@@ -1,0 +1,73 @@
+{
+  "title": "Cassandra Query Language",
+  "description": "Learn about the most essential data definition and data manipulation statements in Cassandra Query Language (CQL)",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        ]
+    },
+    "steps": [
+      {
+        "title": "CQL",
+        "text": "step1.md"
+      },
+      {
+        "title": "Start the CQL shell",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create a keyspace",
+        "text": "step3.md"
+      },
+      {
+        "title": "Set a working keyspace",
+        "text": "step4.md"
+      },
+      {
+        "title": "Create a table",
+        "text": "step5.md"
+      },
+      {
+        "title": "Insert a row",
+        "text": "step6.md"
+      },
+      {
+        "title": "Retrieve a row",
+        "text": "step7.md"
+      },
+      {
+        "title": "Update a row",
+        "text": "step8.md"
+      },
+      {
+        "title": "Delete a row",
+        "text": "step9.md"
+      },
+      {
+        "title": "CQL vs. SQL",
+        "text": "step10.md"
+      },      
+      {
+        "title": "Test Your Understanding",
+        "text": "quiz.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}
