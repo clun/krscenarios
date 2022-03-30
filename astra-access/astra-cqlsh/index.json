@@ -1,0 +1,42 @@
+{
+  "title": "Connect to Astra (Cassanda as a Service) with CQL Shell",
+  "description": "Learn how to connect cqlsh to your Astra DB Cassandra as a Service database",
+  "difficulty": "Intermediate",
+  "time": "10-15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Create your Astra DB Database",
+        "text": "step1.md"
+      },
+      {
+        "title": "Install and Configure cqlsh",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create a Table",
+        "text": "step3.md"
+      },
+      {
+        "title": "Insert Data",
+        "text": "step4.md"
+      },
+      {
+        "title": "Query Data",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}

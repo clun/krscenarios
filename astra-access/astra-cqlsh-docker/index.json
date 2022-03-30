@@ -1,0 +1,47 @@
+{
+  "title": "Connect to Astra DB (Cassandra as a Service) with CQL Shell using Docker",
+  "description": "Learn how to connect cqlsh to your Astra DB Cassandra as a Service database using Docker",
+  "difficulty": "Intermediate",
+  "time": "10-15 minutes",
+  "details": {
+    "assets": {
+      "host01": [
+        {"file": "cqlsh_run.sh", "target": "/root", "chmod": "+x"}
+      ]
+    },
+    "steps": [
+      {
+        "title": "Create your Astra DB Database",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create a CQL Shell Container",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create a Table",
+        "text": "step3.md"
+      },
+      {
+        "title": "Insert Data",
+        "text": "step4.md"
+      },
+      {
+        "title": "Query Data",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}
