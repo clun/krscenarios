@@ -1,0 +1,50 @@
+{
+  "title": "Full Query Logging",
+  "description": "New Features in Cassandra 4",
+  "difficulty": "Easy",
+  "time": "15 minutes",
+  "details": {
+    "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin", "chmod": "+x"}
+        ]
+    },
+    "steps": [
+      {
+        "title": "Enable Full Query Logging via nodetool",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create Schema and Perform Queries",
+        "text": "step2.md"
+      },
+      {
+        "title": "Use fqltool to review Full Query Logs",
+        "text": "step3.md"
+      },
+      {
+        "title": "Configure Full Query Logging via cassandra.yaml",
+        "text": "step4.md"
+      },     
+      {
+        "title": "Test Your Understanding",
+        "text": "quiz.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/"
+  },
+  "backend": {
+    "imageid": "datastax-oss-cassandra"
+  }
+}

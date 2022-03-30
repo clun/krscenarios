@@ -1,0 +1,64 @@
+{
+  "title": "Repair Improvements",
+  "description": "Learn how to manage incremental repair in a Cassandra 4.0 cluster",
+  "difficulty": "Intermediate",
+  "time": "25 minutes",
+  "details": {
+    "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+            {"file": "delete_nongases.cql", "target": "/root/"},
+            {"file": "elements.csv", "target": "/root/"}
+        ],
+        "host02": [
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+            {"file": "delete_nongases.cql", "target": "/root/"},
+            {"file": "elements.csv", "target": "/root/"}
+        ]
+    },
+    "steps": [
+      {
+        "title": "Setup & create data",
+        "text": "step1.md"
+      },
+      {
+        "title": "Fun with SSTables",
+        "text": "step2.md"
+      },
+      {
+        "title": "The need for repair",
+        "text": "step3.md"
+      },
+      {
+        "title": "Incremental repair",
+        "text": "step4.md"
+      },
+      {
+        "title": "Test Your Understanding",
+        "text": "quiz.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "terminals": [
+      {"name": "Node1 Admin", "target": "host01"},
+      {"name": "Node1 Console", "target": "host01"},
+      {"name": "Node1 CQLSH", "target": "host01"},
+      {"name": "Node2 Admin", "target": "host02"},
+      {"name": "Node2 Console", "target": "host02"},
+      {"name": "Node2 CQLSH", "target": "host02"}
+    ]
+  },
+  "backend": {
+    "imageid": "docker-swarm"
+  }
+}

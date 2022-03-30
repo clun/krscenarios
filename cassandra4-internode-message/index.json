@@ -1,0 +1,68 @@
+{
+  "title": "Apache Cassandra™ Internode Messaging Improvements",
+  "description": "New Features in Cassandra 4",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+            {"file": "in.cql", "target": "/root/"},
+            {"file": "out.cql", "target": "/root/"}
+        ],
+        "host02": [
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+            {"file": "in.cql", "target": "/root/"},
+            {"file": "out.cql", "target": "/root/"}
+        ]
+    },
+    "steps": [
+      {
+        "title": "Welcome to Internode Messaging",
+        "text": "step1.md"
+      },
+      {
+        "title": "Asynchronous Messages",
+        "text": "step2.md"
+      },
+      {
+        "title": "Cleaning Up Technical Debt",
+        "text": "step3.md"
+      },
+      {
+        "title": "Check Out the Cluster",
+        "text": "step4.md"
+      },
+      {
+        "title": "Internode Metrics and Virtual Tables",
+        "text": "step5.md"
+      },
+      {
+        "title": "Review the Metrics",
+        "text": "step6.md"
+      },
+      {
+        "title": "Do the Metrics Add Up?",
+        "text": "step7.md"
+      },
+      {
+        "title": "Test your understanding",
+        "text": "quiz.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "docker-swarm"
+  }
+}

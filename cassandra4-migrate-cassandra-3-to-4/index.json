@@ -1,0 +1,62 @@
+{
+    "private": false,
+    "title": "Migrate Cassandra 3.x -> 4.x",
+    "description": "Learn how to perform 'zero-downtime' migration from Cassandra 3.x -> 4.x",
+    "difficulty": "Intermediate",
+    "time": "20 minutes",
+    "details": {
+      "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin", "chmod": "+x"}
+        ]
+      },
+      "steps": [
+        {
+          "title": "Create a Cassandra 3.11.9 Cluster",
+          "text": "step1.md"
+        },
+        {
+          "title": "Populate the Cluster",
+          "text": "step2.md"
+        },
+        {
+          "title": "Verify that the Cluster is Ready to Upgrade",
+          "text": "step3.md"
+        },
+        {
+          "title": "Prepare the 3.x Cluster for Migration",
+          "text": "step4.md"
+        },
+        {
+          "title": "Install Cassandra 4.0",
+          "text": "step5.md"
+        },
+        {
+          "title": "Start New Node",
+          "text": "step6.md"
+        },
+        {
+          "title": "Verify New Node",
+          "text": "step7.md"
+        },
+        {
+          "title": "Test Your Understanding",
+          "text": "quiz.md"
+        }
+      ],
+      "intro": {
+        "courseData": "background.sh",
+        "code": "foreground.sh",
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "terminal"
+    },
+    "backend": {
+      "imageid": "ubuntu:1804"
+    }
+  }

@@ -1,0 +1,51 @@
+{
+  "private": false,
+  "title": "Audit Logging",
+  "description": "New Features in Cassandra 4",
+  "difficulty": "Easy",
+  "time": "15 minutes",
+  "details": {
+    "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin", "chmod": "+x"}
+        ]
+    },
+    "steps": [
+      {
+        "title": "Setup",
+        "text": "step1.md"
+      },
+      {
+        "title": "Enable Audit Logging Dynamically",
+        "text": "step2.md"
+      },
+      {
+        "title": "Enable Audit Logging in cassandra.yaml",
+        "text": "step3.md"
+      },
+      {
+        "title": "Configuring Audit Logging",
+        "text": "step4.md"
+      },     
+      {
+        "title": "Test Your Understanding",
+        "text": "quiz.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}
