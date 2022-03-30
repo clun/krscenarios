@@ -1,0 +1,55 @@
+{
+  "title": "Getting Started with Stargate Document API for Cassandra™",
+  "description": "Get started with the Stargate Document API on Astra DB Cassandra as Service database",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Watch an introductory video on the Document API",
+        "text": "step0.md"
+      },
+      {
+        "title": "Setting up Environment Variables",
+        "text": "step1.md"
+      },
+      {
+        "title": "Creating a Games Document",
+        "text": "step2.md"
+      },
+      {
+        "title": "Reading a Game Document",
+        "text": "step3.md"
+      },
+      {
+        "title": "Reading a Questions Subdocument",
+        "text": "step4.md"
+      },
+      {
+        "title": "Partially Update the Game Document",
+        "text": "step5.md"
+      },
+      {
+        "title": "Replace the Votes Subdocument",
+        "text": "step6.md"
+      },
+      {
+        "title": "Delete a Game Document",
+        "text": "step7.md"
+      }
+
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}

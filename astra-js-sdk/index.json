@@ -1,0 +1,58 @@
+{
+  "title": "Create a Serverless REST Endpoint",
+  "description": "Create a REST endpoint in the BattleStax fullstack demo application using Stargate's Document API for Cassandra.",
+  "difficulty": "Intermediate",
+  "time": "15 minutes",
+  "details": {
+    "assets": {
+        "host01": [
+            {"file": "insertGame.test.js", "target": "/root"}
+        ]
+    },
+    "steps": [
+      {
+        "title": "Setting up Environment Variables",
+        "text": "step1.md"
+      },
+      {
+        "title": "Make a Serverless endpoint using Netlify functions",
+        "text": "step2.md"
+      },
+      {
+        "title": "Running TDD Test on helloWorld",
+        "text": "step3.md"
+      },
+      {
+        "title": "Creating the insertGame Netlify endpoint",
+        "text": "step4.md"
+      },
+      {
+        "title": "Connect to Astra DB",
+        "text": "step5.md"
+      },
+      {
+        "title": "Running TDD tests on insertGame",
+        "text": "step6.md"
+      },
+      {
+        "title": "Verify in Astra DB",
+        "text": "step7.md"
+      }
+
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root"
+  },
+  "backend": {
+    "imageid": "datastax-oss-cassandra"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Getting Started with Stargate GraphQL API for Apache Cassandra™",
+  "description": "Get started with the Stargate GraphQL API on Astra DB Cassandra as Service database",
+  "difficulty": "Intermediate",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Watch an introductory video on the GraphQL API",
+        "text": "step0.md"
+      },
+      {
+        "title": "Setting up Environment Variables",
+        "text": "step1.md"
+      },
+      {
+        "title": "Creating a table with the GraphQL API",
+        "text": "step2.md"
+      },
+      {
+        "title": "Adding rows to the table with the GraphQL API",
+        "text": "step3.md"
+      },
+      {
+        "title": "Retrieving rows using the GraphQL API",
+        "text": "step4.md"
+      },
+      {
+        "title": "Updating a row using the GraphQL API",
+        "text": "step5.md"
+      },
+      {
+        "title": "Delete rows using the GraphQL API",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [
+    "graphql-query.js", "graphql-mutation.js"
+  ],
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "title": "Create Astra Streaming Producers, Consumers and Readers in Java",
+  "description": "Learn how to write Java clients that can produce, consume and read messages with Astra Streaming",
+  "difficulty": "Beginner",
+  "time": "20 minutes",
+  "details": {
+    "assets": {
+      "host01": [
+          {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+          {"file": "my-pulsar-consumer.tar.gz", "target": "/root/"},
+          {"file": "my-pulsar-producer.tar.gz", "target": "/root/"},
+          {"file": "my-pulsar-reader.tar.gz", "target": "/root/"}
+      ]
+    },
+    "steps": [
+      {
+        "title": "Watch an introductory video on Astra Streaming",
+        "text": "step0.md"
+      },
+      {
+        "title": "Create an Astra Streaming Tenant",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create an Astra Streaming Topic",
+        "text": "step2.md"
+      },
+      {
+        "title": "Set Up the Producer/Consumer Environment",
+        "text": "step3.md"
+      },
+      {
+        "title": "Create Producer App",
+        "text": "step4.md"
+      },
+      {
+        "title": "Create Consumer App",
+        "text": "step5.md"
+      },
+      {
+        "title": "Create Reader App",
+        "text": "step6.md"
+      },
+      {
+        "title": "Set up the Sink Environment",
+        "text": "step7.md"
+      },
+      {
+        "title": "Install the Astra DB Connector",
+        "text": "step8.md"
+      },
+      {
+        "title": "Run the Messaging System",
+        "text": "step9.md"
+      },
+      {
+        "title": "Replay Messages Using Reader",
+        "text": "step10.md"
+      },
+      {
+        "title": "Inspect the Sink Table",
+        "text": "step11.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uisettings": "java",
+    "uieditorpath": "/root"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}

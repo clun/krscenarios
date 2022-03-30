@@ -1,0 +1,50 @@
+{
+  "title": "Getting Started with Stargate REST API for Apache Cassandra™",
+  "description": "Get started using the Stargate REST API Service on Astra DB Cassandra as Service database",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Watch an introductory video on the REST API",
+        "text": "step0.md"
+      },
+      {
+        "title": "Setting up the environment variables",
+        "text": "step1.md"
+      },
+      {
+        "title": "Creating a table with the REST API",
+        "text": "step2.md"
+      },
+      {
+        "title": "Adding a row to your table with the REST API",
+        "text": "step3.md"
+      },
+      {
+        "title": "Retrieving rows using the REST API",
+        "text": "step4.md"
+      },
+      {
+        "title": "Updating a row using the REST API",
+        "text": "step5.md"
+      },
+      {
+        "title": "Delete rows using the REST API",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}

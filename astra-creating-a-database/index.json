@@ -1,0 +1,34 @@
+{
+  "title": "Creating a Cassandra as a Service Database with Astra DB",
+  "description": "Get started with creating your own Cassandra as a Service database with Astra DB",
+  "difficulty": "Beginner",
+  "time": "5",
+  "details": {
+    "steps": [
+      {
+        "title": "Login and Create the Database",
+        "text": "step1.md"
+      },
+      {
+        "title": "Tour the Astra User Interface",
+        "text": "step2.md"
+      },
+      {
+        "title": "Use the DevOps API",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}
