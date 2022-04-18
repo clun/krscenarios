@@ -1,0 +1,77 @@
+{
+  "title": "Queries in Apache Cassandra™",
+  "description": "Learn how to retrieve data from Cassandra tables",
+  "difficulty": "Beginner",
+  "time": "20 minutes",
+  "details": {
+    "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        ]
+    },
+    "steps": [
+      {
+        "title": "Querying tables",
+        "text": "step1.md"
+      },
+      {
+        "title": "Syntax",
+        "text": "step2.md"
+      },
+      {
+        "title": "Let's get started ...",
+        "text": "step3.md"
+      },
+      {
+        "title": "Querying table \"users\"",
+        "text": "step4.md"
+      },
+      {
+        "title": "Querying table \"movies\"",
+        "text": "step5.md"
+      },
+      {
+        "title": "Querying table \"ratings_by_user\"",
+        "text": "step6.md"
+      },
+      {
+        "title": "Querying table \"ratings_by_movie\"",
+        "text": "step7.md"
+      },
+      {
+        "title": "Using aggregates and functions",
+        "text": "step8.md"
+      },
+      {
+        "title": "Grouping rows",
+        "text": "step9.md"
+      },
+      {
+        "title": "Ordering rows",
+        "text": "step10.md"
+      },
+      {
+        "title": "Setting limits",
+        "text": "step11.md"
+      },
+      {
+        "title": "Test Your Understanding",
+        "text": "quiz.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu20.04"
+  }
+}
