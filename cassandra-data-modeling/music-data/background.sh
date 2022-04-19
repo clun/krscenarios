@@ -1,5 +1,6 @@
 #!/bin/bash
-export JAVA_HOME="/usr/lib/jvm/default-java"
+apt install -y openjdk-11-jre-headless
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 tar -xzvf music_data.tar.gz
 rm music_data.tar.gz
 wget https://downloads.datastax.com/dsbulk/dsbulk.tar.gz
