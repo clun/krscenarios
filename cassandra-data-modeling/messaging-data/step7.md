@@ -14,6 +14,8 @@ WHERE email_id = 8ae31dd0-d361-11ea-a40e-5dd6331dfc45
 
 </details>
 
+<br/>
+
 Find an attachment file with name `Presentation.pptx` for an email with id `8ae31dd0-d361-11ea-a40e-5dd6331dfc45`, assuming that the three file chunks are stored across three partitions with chunk numbers `1`, `2` and `3`:
 
 <details>
