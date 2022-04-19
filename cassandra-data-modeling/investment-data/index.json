@@ -1,0 +1,70 @@
+{
+  "title": "Investment Portfolio Data Modeling Example for Cassandra",
+  "description": "Explore how investment portfolio data can be stored and queried in Cassandra NoSQL database",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+            {"file": "investment_data.cql", "target": "/root/"}
+        ]
+    },
+    "steps": [
+      {
+        "title": "Create a keyspace",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create tables",
+        "text": "step2.md"
+      },
+      {
+        "title": "Populate tables",
+        "text": "step3.md"
+      },
+      {
+        "title": "Design query Q1",
+        "text": "step4.md"
+      },
+      {
+        "title": "Design query Q2",
+        "text": "step5.md"
+      },
+      {
+        "title": "Design query Q3.1",
+        "text": "step6.md"
+      },
+      {
+        "title": "Design query Q3.2",
+        "text": "step7.md"
+      },
+      {
+        "title": "Design query Q3.3",
+        "text": "step8.md"
+      },
+      {
+        "title": "Design query Q3.4",
+        "text": "step9.md"
+      },
+      {
+        "title": "Design query Q3.5",
+        "text": "step10.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}

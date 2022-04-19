@@ -1,0 +1,62 @@
+{
+  "title": "Order Management Data Modeling Example for Cassandra",
+  "description": "Explore how online orders can be stored and queried in Cassandra NoSQL database",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+            {"file": "order_management_data.cql", "target": "/root/"}
+        ]
+    },
+    "steps": [
+      {
+        "title": "Create a keyspace",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create tables",
+        "text": "step2.md"
+      },
+      {
+        "title": "Populate tables",
+        "text": "step3.md"
+      },
+      {
+        "title": "Design query Q1",
+        "text": "step4.md"
+      },
+      {
+        "title": "Design query Q2",
+        "text": "step5.md"
+      },
+      {
+        "title": "Design query Q3",
+        "text": "step6.md"
+      },
+      {
+        "title": "Design query Q4",
+        "text": "step7.md"
+      },
+      {
+        "title": "Design update U1",
+        "text": "step8.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}

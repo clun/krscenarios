@@ -1,0 +1,74 @@
+{
+  "title": "Time Series Data Modeling Example for Cassandra",
+  "description": "Explore how time series data can be stored and queried in Cassandra NoSQL database",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "assets": {
+        "host01": [
+            {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+            {"file": "time_series_data.tar.gz", "target": "/root/"}
+        ]
+    },
+    "steps": [
+      {
+        "title": "Create a keyspace",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create tables",
+        "text": "step2.md"
+      },
+      {
+        "title": "Populate tables using DSBulk",
+        "text": "step3.md"
+      },
+      {
+        "title": "Start the CQL shell",
+        "text": "step4.md"
+      },
+      {
+        "title": "Design query Q1",
+        "text": "step5.md"
+      },
+      {
+        "title": "Design query Q2",
+        "text": "step6.md"
+      },
+      {
+        "title": "Design query Q3",
+        "text": "step7.md"
+      },
+      {
+        "title": "Design query Q4",
+        "text": "step8.md"
+      },
+      {
+        "title": "Design query Q5",
+        "text": "step9.md"
+      },
+      {
+        "title": "Design query Q6",
+        "text": "step10.md"
+      },
+      {
+        "title": "Design query Q7",
+        "text": "step11.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}
