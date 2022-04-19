@@ -4,6 +4,7 @@ Cancel order `113-3827060-8722206` placed by user `joe` on `2020-11-17` at `22:2
   <summary>Solution</summary>
 
 <p>Step 1. Update the "source-of-truth" table using a light weight transaction:</p>
+
 ```
 UPDATE orders_by_id 
 SET order_status = 'canceled' 
@@ -13,6 +14,7 @@ IF order_status = 'pending';
 
 
 <p>Step 2. Update the other tables if and only if the previous transaction was successfully applied:</p>
+
 ```
 UPDATE orders_by_user 
 SET order_status = 'canceled' 
@@ -25,6 +27,7 @@ VALUES ('113-3827060-8722206',TOTIMESTAMP(NOW()),'canceled');
 ```{{execute}}
 
 <p>Step 3. Optionally, verify the changes:</p>
+
 ```
 SELECT order_status
 FROM orders_by_id 
@@ -41,6 +44,7 @@ FROM order_status_history_by_id
 WHERE order_id = '113-3827060-8722206'
 LIMIT 1;
 ```{{execute}}
+
 </details>
 
 
