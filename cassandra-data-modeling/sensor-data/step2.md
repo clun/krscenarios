@@ -1,5 +1,5 @@
 Create table `networks`:
-```
+```sql
 CREATE TABLE networks (
   bucket TEXT,
   name TEXT,
@@ -11,7 +11,7 @@ CREATE TABLE networks (
 ```{{execute}}
 
 Create table `temperatures_by_network`:
-```
+```sql
 CREATE TABLE temperatures_by_network (
   network TEXT,
   week DATE,
@@ -25,7 +25,7 @@ CREATE TABLE temperatures_by_network (
 ```{{execute}}
 
 Create table `sensors_by_network`:
-```
+```sql
 CREATE TABLE sensors_by_network (
   network TEXT,
   sensor TEXT,
@@ -38,7 +38,7 @@ CREATE TABLE sensors_by_network (
 
 
 Create table `temperatures_by_sensor`:
-```
+```sql
 CREATE TABLE temperatures_by_sensor (
   sensor TEXT,
   date DATE,
