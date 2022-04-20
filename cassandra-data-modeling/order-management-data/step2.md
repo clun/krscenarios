@@ -1,5 +1,5 @@
 Create table `orders_by_user`:
-```
+```sql
 CREATE TABLE orders_by_user (
   user_id TEXT,
   order_timestamp TIMESTAMP,

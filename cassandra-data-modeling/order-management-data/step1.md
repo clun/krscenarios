@@ -1,5 +1,5 @@
 Create the `order_management_data` keyspace:
-```
+```sql
 CREATE KEYSPACE order_management_data
 WITH replication = {
   'class': 'NetworkTopologyStrategy', 
@@ -7,6 +7,6 @@ WITH replication = {
 ```{{execute}}
 
 Set the current working keyspace:
-```
+```sql
 USE order_management_data;
 ```{{execute}}
