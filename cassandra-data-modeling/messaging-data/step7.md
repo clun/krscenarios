@@ -3,7 +3,7 @@ Find an attachment file with name `Budget.xlsx` for an email with id `8ae31dd0-d
 <details>
   <summary>Solution</summary>
 
-```
+```sql
 SELECT filename, type, value,
        blobAsText(value)
 FROM attachments
@@ -21,7 +21,7 @@ Find an attachment file with name `Presentation.pptx` for an email with id `8ae3
 <details>
   <summary>Solution</summary>
 
-```
+```sql
 SELECT filename, type, value,
        blobAsText(value)
 FROM attachments

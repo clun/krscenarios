@@ -3,7 +3,7 @@ Find ids, subjects, senders, read/unread statuses and timestamps of all emails w
 <details>
   <summary>Solution</summary>
 
-```
+```sql
 SELECT id, subject, "from", is_read, 
        toTimestamp(id) AS timestamp
 FROM emails_by_user_folder

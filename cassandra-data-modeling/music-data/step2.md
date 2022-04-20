@@ -1,6 +1,6 @@
 Create tables `performers`, `albums_by_performer`, `albums_by_title`, 
 `albums_by_genre`, `tracks_by_title`, `tracks_by_album`, `users` and `tracks_by_user`:
-```
+```sql
 cqlsh -e "
 
 USE music_data;

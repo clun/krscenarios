@@ -3,7 +3,7 @@ Find tracks from album `Magical Mystery Tour` of `1967`; order by track number (
 <details>
   <summary>Solution</summary>
 
-```
+```sql
 SELECT *
 FROM tracks_by_album
 WHERE album_title = 'Magical Mystery Tour'

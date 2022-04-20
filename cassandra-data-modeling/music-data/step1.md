@@ -1,5 +1,5 @@
 Create the `music_data` keyspace:
-```
+```sql
 cqlsh -e "
 
 CREATE KEYSPACE music_data

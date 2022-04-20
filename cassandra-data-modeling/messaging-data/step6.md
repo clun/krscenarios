@@ -3,7 +3,7 @@ Find all available information about an email with id `8ae31dd0-d361-11ea-a40e-5
 <details>
   <summary>Solution</summary>
 
-```
+```sql
 SELECT id, "to", "from",
        toTimestamp(id) AS timestamp,
        subject, body,

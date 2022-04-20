@@ -1,5 +1,5 @@
 Create table `folders_by_user`:
-```
+```sql
 CREATE TABLE folders_by_user (
   username TEXT,
   label TEXT,
@@ -9,7 +9,7 @@ CREATE TABLE folders_by_user (
 ```{{execute}}
 
 Create table `unread_email_stats`:
-```
+```sql
 CREATE TABLE unread_email_stats (
   username TEXT,
   label TEXT,
@@ -19,7 +19,7 @@ CREATE TABLE unread_email_stats (
 ```{{execute}}
 
 Create table `emails_by_user_folder`:
-```
+```sql
 CREATE TABLE emails_by_user_folder (
   username TEXT,
   label TEXT,
@@ -32,7 +32,7 @@ CREATE TABLE emails_by_user_folder (
 ```{{execute}}
 
 Create table `emails`:
-```
+```sql
 CREATE TABLE emails (
   id TIMEUUID,
   "to" LIST<TEXT>,
@@ -45,7 +45,7 @@ CREATE TABLE emails (
 ```{{execute}}
 
 Create table `attachments`:
-```
+```sql
 CREATE TABLE attachments (
   email_id TIMEUUID,
   filename TEXT,

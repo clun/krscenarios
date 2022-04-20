@@ -1,11 +1,11 @@
 Start the CQL shell:
-```
+```bash
 cqlsh -k music_data
 ```{{execute}}
 
 Insert rows into table `users`:
 
-```
+```sql
 INSERT INTO users (id, name)
 VALUES (12345678-aaaa-bbbb-cccc-123456789abc, 'Joe'); 
 INSERT INTO users (id, name)
@@ -18,7 +18,7 @@ SELECT * FROM users;
 
 Insert rows into table `tracks_by_user`:
 
-```
+```sql
 INSERT INTO tracks_by_user (id, month, timestamp, album_title, album_year, number, title)
 VALUES (12345678-aaaa-bbbb-cccc-123456789abc, '2020-01-01', '2020-01-05T11:22:33', '20 Greatest Hits', 1982, 16, 'Hey Jude');
 
