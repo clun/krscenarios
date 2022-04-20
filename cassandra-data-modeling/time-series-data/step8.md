@@ -4,7 +4,8 @@ order by source (asc), timestamp (desc) and metric (asc):
 
 <details>
   <summary>Solution</summary>
-```
+
+```sql
 SELECT * 
 FROM time_series.series_by_source_low
 WHERE group = 'House A'
@@ -13,4 +14,5 @@ WHERE group = 'House A'
   AND timestamp >= '2020-10-05 12:00:00'
   AND timestamp <= '2020-10-05 15:00:00';
 ```{{execute}}
+
 </details>

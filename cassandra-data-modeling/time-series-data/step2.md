@@ -1,6 +1,6 @@
 Create tables `sources_by_group`, `metrics`, `series_by_source_high`, 
 `series_by_source_low`, `series_by_metric_high`, `series_by_metric_low` and `statistics_by_source_metric`:
-```
+```sql
 cqlsh -e "
 
 USE time_series;

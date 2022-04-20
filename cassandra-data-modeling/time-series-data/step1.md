@@ -1,5 +1,5 @@
 Create the `time_series` keyspace:
-```
+```sql
 cqlsh -e "
 
 CREATE KEYSPACE time_series
