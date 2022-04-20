@@ -11,7 +11,7 @@ CREATE TABLE orders_by_user (
 ```{{execute}}
 
 Create table `orders_by_id`:
-```
+```sql
 CREATE TABLE orders_by_id (
   order_id TEXT,
   item_name TEXT,
@@ -38,7 +38,7 @@ CREATE TABLE orders_by_id (
 ```{{execute}}
 
 Create table `orders_by_user_item`:
-```
+```sql
 CREATE TABLE orders_by_user_item (
   user_id TEXT,
   item_id TEXT,
@@ -50,7 +50,7 @@ CREATE TABLE orders_by_user_item (
 
 
 Create table `order_status_history_by_id`:
-```
+```sql
 CREATE TABLE order_status_history_by_id (
   order_id TEXT,
   status_timestamp TIMESTAMP,

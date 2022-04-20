@@ -3,7 +3,7 @@ Find all orders placed by user `joe` between dates `2020-01-01` and `2020-12-31`
 <details>
   <summary>Solution</summary>
 
-```
+```sql
 SELECT * 
 FROM orders_by_user 
 WHERE user_id = 'joe'

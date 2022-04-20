@@ -3,7 +3,7 @@ Find all information about order `113-3827060-8722206`; sort items by name (asc)
 <details>
   <summary>Solution</summary>
 
-```
+```sql
 EXPAND ON;
 
 SELECT * 

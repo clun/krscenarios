@@ -1,15 +1,15 @@
 Execute the CQL script to insert sample data:
-```
+```sql
 SOURCE '~/order_management_data.cql'
 ```{{execute}}
 
 Retrieve all rows from table `orders_by_user`:
-```
+```sql
 SELECT * FROM orders_by_user;        
 ```{{execute}}
 
 Retrieve all rows from table `orders_by_id`:
-```
+```sql
 EXPAND ON;
 
 SELECT 
@@ -39,11 +39,11 @@ EXPAND OFF;
 ```{{execute}}
 
 Retrieve all rows from table `orders_by_user_item`:
-```   
+```sql
 SELECT * FROM orders_by_user_item;                    
 ```{{execute}}
 
 Retrieve all rows from table `order_status_history_by_id`:
-```
+```sql
 SELECT * FROM order_status_history_by_id; 
 ```{{execute}}
