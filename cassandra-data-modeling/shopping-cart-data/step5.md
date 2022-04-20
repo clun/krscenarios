@@ -2,10 +2,12 @@ Find ids and names of all shopping carts that belong to user `jen`; order by car
  
 <details>
   <summary>Solution</summary>
-```
+
+```sql
 SELECT user_id, cart_name, 
        cart_id, cart_is_active
 FROM carts_by_user
 WHERE user_id = 'jen';
 ```{{execute}}
+
 </details>

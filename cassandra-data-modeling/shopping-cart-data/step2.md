@@ -1,5 +1,5 @@
 Create table `carts_by_user`:
-```
+```sql
 CREATE TABLE carts_by_user (
   user_id TEXT,
   cart_name TEXT,
@@ -11,7 +11,7 @@ CREATE TABLE carts_by_user (
 ```{{execute}}
 
 Create table `items_by_id`:
-```
+```sql
 CREATE TABLE items_by_id (
   id TEXT,
   name TEXT,
@@ -22,7 +22,7 @@ CREATE TABLE items_by_id (
 ```{{execute}}
 
 Create materialized view `items_by_name`:
-```
+```sql
 CREATE MATERIALIZED VIEW items_by_name 
   AS 
     SELECT * FROM items_by_id
@@ -33,7 +33,7 @@ CREATE MATERIALIZED VIEW items_by_name
 
 
 Create table `items_by_cart`:
-```
+```sql
 CREATE TABLE items_by_cart (
   cart_id UUID,
   timestamp TIMESTAMP,

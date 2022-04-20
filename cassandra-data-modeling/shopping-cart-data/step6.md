@@ -3,7 +3,8 @@ and designate a different cart with name `Gifts for Mom` and id `19925cc1-4f8b-4
 
 <details>
   <summary>Solution</summary>
-```
+
+```sql
 BEGIN BATCH
   UPDATE carts_by_user 
   SET cart_is_active = false
@@ -23,6 +24,7 @@ SELECT user_id, cart_name,
 FROM carts_by_user
 WHERE user_id = 'jen';
 ```{{execute}}
+
 </details>
 
 

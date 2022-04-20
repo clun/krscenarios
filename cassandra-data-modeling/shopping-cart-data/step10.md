@@ -2,7 +2,8 @@ Add item `Box2` into active cart `19925cc1-4f8b-4a44-b893-2a49a8434fc8` and upda
 
 <details>
   <summary>Solution</summary>
-```
+
+```sql
 BEGIN BATCH
   INSERT INTO items_by_cart (
     cart_id,
@@ -31,6 +32,7 @@ SELECT timestamp, item_id, item_price,
 FROM items_by_cart
 WHERE cart_id = 19925cc1-4f8b-4a44-b893-2a49a8434fc8; 
 ```{{execute}}
+
 </details>
 
 
