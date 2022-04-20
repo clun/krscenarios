@@ -1,0 +1,27 @@
+{
+  "title": "Data Modeling By Example",
+  "description": "Learn how to create efficient and scalable Cassandra data models for IoT, e-commerce, finance, and more.",
+  "items": [
+    {   "path": "sensor-data",
+        "title": "Sensor Data Modeling",
+        "description": "Learn how to create a data model for temperature monitoring sensor networks" },
+    {   "path": "messaging-data",
+        "title": "Messaging Data Modeling",
+        "description": "Learn how to create a data model for an email system" },
+    {   "path": "music-data",
+        "title": "Digital Library Data Modeling",
+        "description": "Learn how to create a data model for a digital music library" },
+    {   "path": "investment-data",
+        "title": "Investment Portfolio Data Modeling",
+        "description": "Learn how to create a data model for investment accounts or portfolios" },
+    {   "path": "time-series-data",
+        "title": "Time Series Data Modeling",
+        "description": "Learn how to create a data model for time series data" },
+    {   "path": "shopping-cart-data",
+        "title": "Shopping Cart Data Modeling",
+        "description": "Learn how to create a data model for online shopping carts" },
+    {   "path": "order-management-data",
+        "title": "Order Management Data Modeling",
+        "description": "Learn how to create a data model for an order management system" }
+  ]
+}
