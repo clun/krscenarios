@@ -3,7 +3,7 @@ Find all trades for account `joe001`, date range `2020-09-07` - `2020-09-11` and
 <details>
   <summary>Solution</summary>
 
-```
+```sql
 SELECT account, 
        TODATE(DATEOF(trade_id)) AS date, 
        trade_id, type, symbol,

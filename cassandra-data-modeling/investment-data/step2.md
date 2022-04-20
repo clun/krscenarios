@@ -1,5 +1,5 @@
 Create table `accounts_by_user`:
-```
+```sql
 CREATE TABLE accounts_by_user (
   username TEXT,
   account_number TEXT,
@@ -10,7 +10,7 @@ CREATE TABLE accounts_by_user (
 ```{{execute}}
 
 Create table `positions_by_account`:
-```
+```sql
 CREATE TABLE positions_by_account (
   account TEXT,
   symbol TEXT,
@@ -20,7 +20,7 @@ CREATE TABLE positions_by_account (
 ```{{execute}}
 
 Create table `trades_by_a_d`:
-```
+```sql
 CREATE TABLE trades_by_a_d (
   account TEXT,
   trade_id TIMEUUID,
@@ -34,7 +34,7 @@ CREATE TABLE trades_by_a_d (
 ```{{execute}}
 
 Create table `trades_by_a_td`:
-```
+```sql
 CREATE TABLE trades_by_a_td (
   account TEXT,
   trade_id TIMEUUID,
@@ -48,7 +48,7 @@ CREATE TABLE trades_by_a_td (
 ```{{execute}}
 
 Create table `trades_by_a_std`:
-```
+```sql
 CREATE TABLE trades_by_a_std (
   account TEXT,
   trade_id TIMEUUID,
@@ -62,7 +62,7 @@ CREATE TABLE trades_by_a_std (
 ```{{execute}}
 
 Create table `trades_by_a_sd`:
-```
+```sql
 CREATE TABLE trades_by_a_sd (
   account TEXT,
   trade_id TIMEUUID,

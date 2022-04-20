@@ -1,5 +1,5 @@
 Create the `investment_data` keyspace:
-```
+```sql
 CREATE KEYSPACE investment_data
 WITH replication = {
   'class': 'NetworkTopologyStrategy', 
@@ -7,6 +7,6 @@ WITH replication = {
 ```{{execute}}
 
 Set the current working keyspace:
-```
+```sql
 USE investment_data;
 ```{{execute}}

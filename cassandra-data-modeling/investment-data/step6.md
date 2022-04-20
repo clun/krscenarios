@@ -3,7 +3,7 @@ Find all trades for account `joe001`; order by trade date (desc):
 <details>
   <summary>Solution</summary>
 
-```
+```sql
 SELECT account, 
        TODATE(DATEOF(trade_id)) AS date, 
        trade_id, type, symbol,
