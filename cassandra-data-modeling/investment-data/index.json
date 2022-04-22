@@ -65,6 +65,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu20.04-4GB"
+    "imageid": "ubuntu20.04"
   }
 }
